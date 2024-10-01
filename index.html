@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/index.js"></script>
+    <title>Gruesome Goonz</title>
+</head>
+<body>
+<!-- Website header -->
+    <h1>Gruesome Goonz</h1>
+
+<!-- Nav bar between pages -->
+    <nav>
+        <ul>
+            <li><button onclick="location.href='favorite.html'">Our Favorite Horror Movies</button></li>
+            <li><button onclick="location.href='month.html'">Villain of the Month</button></li>
+        </ul>
+    </nav>
+
+<!-- Main part of website -->
+    <p>A Home for Horror Fanatics and Thrill Seekers!</p>
+    
+    <img src="https://preview.redd.it/w76cdkjncoo91.jpg?auto=webp&s=f8e3e2d8131f06f84b11d27d617d55bc4eea49bb"
+    alt="Horror icons in theater" width="500">
+
+<!-- Jumpscare Ring girl -->
+    <div class="slideshow-container">
+        <img id="slideshow-image" src="https://miro.medium.com/v2/resize:fit:1400/0*0nKXkr98NdC4UOac"
+        alt="Ring girl coming out of well" width="500">
+    </div>
+
+<!-- Movie recommendation button -->
+    <button id="randomButton">Recommend Me a Movie!</button>
+    <div id="result"></div>
+    <div id="popup">
+        <p id="popupMessage"></p>
+    </div>
+    <script>
+        const options = ['Halloween', 'Friday the 13th', 'Texas Chainsaw Massacre', 'Scream', 'The Shining',
+        'Evil Dead', 'The Thing', 'A Nightmare on Elm Street', 'It Follows', 'Hereditary', 'Psycho'];
+
+        document.getElementById('randomButton').onclick = function() {
+            const randomIndex = Math.floor(Math.random() * options.length);
+            const randomOption = options[randomIndex];
+
+        document.getElementById('popupMessage').innerText = randomOption;
+        document.getElementById('popup').style.display = 'block';
+        document.getElementById('randomButton').style.display = 'block';
+        };
+    </script>
+    
+</body>
+</html>
