@@ -116,9 +116,22 @@ form {
     padding: 250px;
 }
 
-.header img {
+/* .header img {
     width: 100vw;
     height: 25vh;
+  } */
+
+ .header img {
+    display: block;
+    float: left;
+    width: 48%;
+    height: 270px;
+    margin: 1%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
   }
 
   div img{
