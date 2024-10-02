@@ -17,3 +17,11 @@ window.onload = function() {
     }, 4000);
 };
 
+// const options = ['Halloween', 'Friday the 13th', 'Texas Chainsaw Massacre', 'Scream', 'The Shining',
+//         'Evil Dead', 'The Thing', 'A Nightmare on Elm Street', 'It Follows', 'Hereditary', 'Psycho'];
+
+// document.getElementById("randomButton").addEventListener("click", function() {
+//     const randomIndex = Math.floor(Math.random() * options.length);
+//     const randomOption = options[randomIndex];
+//     alert(randomOption);
+// });
