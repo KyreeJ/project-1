@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +8,15 @@
     <script src="./assets/js/index.js"></script>
     <title>Gruesome Goonz</title>
 </head>
+
 <body>
-<!-- Website header -->
+    <!-- Website header -->
     <!-- <h1>Gruesome Goonz</h1> -->
     <div class="header">
         <img src="./images/ggbanner.gif" width="640" height=" 360" alt="Banner">
-      </div>
+    </div>
 
-<!-- Nav bar between pages -->
+    <!-- Nav bar between pages -->
     <nav>
         <ul>
             <li><button onclick="location.href='favorite.html'">Our Favorite Horror Movies</button></li>
@@ -22,22 +24,25 @@
         </ul>
     </nav>
 
-<!-- Main part of website -->
-    <p>A Home for Horror Fanatics and Thrill Seekers!</p>
-    
-    <img src="https://preview.redd.it/w76cdkjncoo91.jpg?auto=webp&s=f8e3e2d8131f06f84b11d27d617d55bc4eea49bb"
-    alt="Horror icons in theater" width="500">
+    <!-- Main part of website -->
+    <div class="horror icons-container">
+        <p>A Home for Horror Fanatics and Thrill Seekers!</p>
 
-<!-- Jumpscare Ring girl -->
+        <img src="https://preview.redd.it/w76cdkjncoo91.jpg?auto=webp&s=f8e3e2d8131f06f84b11d27d617d55bc4eea49bb"
+            alt="Horror icons in theater" width="500">
+    </div>
+    <!-- Jumpscare Ring girl -->
     <div class="jumpscare-container">
-        <img id="jumpscare-gif" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnRlcGF2aGdsbDg2dzQ5cm80bXJwbG00NTcwMHFndHhiZnQwYWp5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/s0TjvArH5xQiI/giphy.webp"
-        alt="Ring girl gif">
-        <img id="jumpscare-image" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/21/1413886741290/Ringu-Ring-sadako-eye-014.jpg?width=465&dpr=1&s=none"
-        alt="Ring girl eye" style="display: none;">
+        <img id="jumpscare-gif"
+            src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnRlcGF2aGdsbDg2dzQ5cm80bXJwbG00NTcwMHFndHhiZnQwYWp5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/s0TjvArH5xQiI/giphy.webp"
+            alt="Ring girl gif">
+        <img id="jumpscare-image"
+            src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/21/1413886741290/Ringu-Ring-sadako-eye-014.jpg?width=465&dpr=1&s=none"
+            alt="Ring girl eye" style="display: none;">
         <!-- <audio id="jumpscare-sound" src="./assets/images/jumpscare-94984.mp3" preload="auto"></audio> -->
     </div>
 
-<!-- Movie recommendation button -->
+    <!-- Movie recommendation button -->
     <button id="randomButton">Recommend Me a Movie!</button>
     <div id="result"></div>
     <div id="popup">
@@ -45,17 +50,18 @@
     </div>
     <script>
         const options = ['Halloween', 'Friday the 13th', 'Texas Chainsaw Massacre', 'Scream', 'The Shining',
-        'Evil Dead', 'The Thing', 'A Nightmare on Elm Street', 'It Follows', 'Hereditary', 'Psycho'];
+            'Evil Dead', 'The Thing', 'A Nightmare on Elm Street', 'It Follows', 'Hereditary', 'Psycho'];
 
-        document.getElementById('randomButton').onclick = function() {
+        document.getElementById('randomButton').onclick = function () {
             const randomIndex = Math.floor(Math.random() * options.length);
             const randomOption = options[randomIndex];
 
-        document.getElementById('popupMessage').innerText = randomOption;
-        document.getElementById('popup').style.display = 'block';
-        document.getElementById('randomButton').style.display = 'block';
+            document.getElementById('popupMessage').innerText = randomOption;
+            document.getElementById('popup').style.display = 'block';
+            document.getElementById('randomButton').style.display = 'block';
         };
     </script>
-    
+
 </body>
+
 </html>

@@ -71,3 +71,43 @@ nav {
 
 
 }
+.container {
+  width: 350px;
+  height: 500px;
+  perspective: 500px;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+.container:hover   .card{
+  cursor: pointer;
+  /* transform: rotateY(90deg) */
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+}
+.front {
+  background-image: img(images/jason_voorhees_by_plaiemobile_dgbab8v-fullview);
+  /* jason v*/
+}
+.back {
+ background-color: #f3ae0d;
+ transform: rotateX(180deg);
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: right;
+ gap: 1rem;
+}
+
+
+
+
