@@ -1,0 +1,127 @@
+header {
+    height: 55vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(../images/gruesome.png);
+    background-position:center;
+    /* background-size:cover ; */
+    /* padding: 30px; */
+    /* margin: 0px; */
+    /* color: grey; */
+    /* font-size: 40px; */
+    /* box-shadow: 0px 0px 20px rgb(243, 242, 248); */
+}
+
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 200%;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0px 0px 20px red;
+}
+
+h2 {
+    padding: 30px;
+    text-shadow: 0px 0px 20px red;
+}
+
+h3 {
+    padding-bottom: 80px;
+    text-shadow: 0px 0px 20px crimson;
+}
+
+main h2 {
+    color: crimson;
+}
+
+.navbar ul {
+    /* display: block; */
+    background-color:rgba(128, 128, 128, 0.404);
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+    box-shadow: 0px 0px 15px white;
+    overflow: hidden;
+}
+
+.navbar li{
+    float:left;
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+.btn {
+    color: crimson;
+    background-color:white;
+    padding: 15px;
+
+    border-radius: 12px;
+    text-align: center;
+    text-shadow: 0px 0px 20px rgb(122, 5, 113);
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+p {
+    color: crimson;
+}
+
+.container {
+    margin-left: 50px;
+    display: inline-flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    align-content: flex-end;
+    column-gap: 2em;
+    row-gap: 5em;
+}
+
+button {
+    color: crimson;
+}
+
+form {
+    margin-top: 200px;
+    min-height: 50vh;
+}
+
+.neontext {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+}
+
+/* 0 0 42px orange,
+      0 0 82px orange,
+      0 0 92px orange,
+      0 0 102px orange,
+      0 0 151px orange; */
+
+.localStorageMovies{
+    padding: 250px;
+}
+
+img {
+    box-shadow: 0px 0px 40px red;
+    border-radius: 15px;
+}
+
+.header img {
+    width: 100vw;
+    height: 25vh;
+  }
