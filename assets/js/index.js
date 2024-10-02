@@ -1,20 +1,22 @@
 window.onload = function() {
     const gif = document.getElementById('jumpscare-gif');
     const staticImage = document.getElementById('jumpscare-image');
-    // const sound = document.getElementById('jumpscare-sound');
+    const sound = document.getElementById('jumpscare-sound');
 
     // function showJumpscare() {
         // gif.style.display = 'block';
         // staticImage.style.display = 'none';
         // sound.onplay();
     
-    setTimeout(() => {
-        gif.style.display = 'none';
-        staticImage.style.display = 'block';
-            // setTimeout(() => {
-            //     showJumpscare();
-            // }, 2000);
-    }, 4000);
+    setInterval(() => {
+        gif.style.display = 'block';
+        staticImage.style.display = 'none';
+            setTimeout(() => {
+                gif.style.display = 'none';
+                staticImage.style.display = 'block';
+                sound.play();
+            }, 6000);
+    }, 9000);
 };
 
 // const options = ['Halloween', 'Friday the 13th', 'Texas Chainsaw Massacre', 'Scream', 'The Shining',
