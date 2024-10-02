@@ -65,14 +65,14 @@
 // navigatepage(0)
 
       // Update the image's source to the string being stored in the data-animate attribute
-      element.setAttribute('src', element.dataset.animate);
-    } else {
+    //   element.setAttribute('src', element.dataset.animate);
+    // } else {
       // Change the attributes back to their non-animated values
-      element.dataset.state = 'still';
-      element.setAttribute('src', element.dataset.still);
-    }
-  }
-});
+//       element.dataset.state = 'still';
+//       element.setAttribute('src', element.dataset.still);
+//     }
+//   }
+// });
 
 function saveMovie() {
   const movieInput = document.getElementById('movieInput').value;

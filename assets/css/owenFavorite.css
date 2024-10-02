@@ -1,7 +1,7 @@
 header {
     height: 55vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: url(../images/gruesome.png);
+    /* background-image: url(../images/gruesome.png); */
     background-position:center;
     /* background-size:cover ; */
     /* padding: 30px; */
@@ -116,12 +116,25 @@ form {
     padding: 250px;
 }
 
-img {
-    box-shadow: 0px 0px 40px red;
-    border-radius: 15px;
-}
-
-.header img {
+/* .header img {
     width: 100vw;
     height: 25vh;
+  } */
+
+ .header img {
+    display: block;
+    float: left;
+    width: 48%;
+    height: 270px;
+    margin: 1%;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    transition: 0.3s;
+  }
+
+  div img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px red;
   }
