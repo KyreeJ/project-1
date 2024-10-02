@@ -1,6 +1,7 @@
 header {
   box-sizing: border-box;
-  padding: 0%;
+  padding: 0px;
+  padding-right: 0px;
   margin: 0;
 }
 
