@@ -6,7 +6,6 @@ header {
 
 
 body {
-  font-size: large;
   background-color: rgb(7, 6, 6);
   color: rgb(8, 8, 8);
   neontext color: #fff;
@@ -19,13 +18,17 @@ body {
     0 0 92px #0fa,
     0 0 102px #0fa,
     0 0 151px #0fa;
+  }
+
+
   /* height: 100vh;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: m green;
   display: flex;
   justify-content: center;
   align-items: center; */
-}
+   /* font-size: large; */
+
 
 
 
