@@ -55,9 +55,8 @@ main h2 {
 
 .navbar li{
     float:left;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
-
 .btn:hover{
     background-color: black;
 }
@@ -126,7 +125,11 @@ form {
 }
 
 .localStorageMovies{
-    padding: 250px;
+    padding: 350px;
+}
+
+li{ 
+
 }
 
  .header img {
@@ -142,7 +145,7 @@ form {
     transition: 0.3s;
   }
 
-  /* move categories */
+  /* movie categories */
   div img{
     border-radius: 15px;
     box-shadow: 0px 0px 40px red;
