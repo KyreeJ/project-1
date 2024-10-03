@@ -31,49 +31,6 @@
 // carousel.style.backgroundImage = "url('https://media4.giphy.com/media/H7DZfT7tMtbpe/200.webp?cid=790b7611dju4s2omp0xjkxne93qu1nz1fdwbc8zuqxnhfe2p&amp;ep=v1_gifs_search&amp;rid=200.webp&amp;ct=g')",
 
 
-// function navigatepage(direction) {
-//   index = index + direction;
-//   if (index < 0) {
-//     index = images.length - 1;
-//   } else if (index > images.length - 1) {
-//     index = 0;
-//   }
-//   currentImage = images[index];
-//   carousel.style.backgroundImage = `url('${currentImage}')`;
-// }
-
-
-// carousel.addEventListener('click', function () {
-//   window.location.href = images[index];
-// })
-
-
-// next.addEventListener('click', function (event) {
-
-//   event.stopPropagation();
-
-//   navigatepage(1);
-// })
-
-// prev.addEventListener('click', function (event) {
- 
-//   event.stopPropagation();
-
-//   navigatepage(-1);
-// })
-
-// navigatepage(0)
-
-      // Update the image's source to the string being stored in the data-animate attribute
-    //   element.setAttribute('src', element.dataset.animate);
-    // } else {
-      // Change the attributes back to their non-animated values
-//       element.dataset.state = 'still';
-//       element.setAttribute('src', element.dataset.still);
-//     }
-//   }
-// });
-
 function saveMovie() {
   const movieInput = document.getElementById('movieInput').value;
   if (movieInput) {

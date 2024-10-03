@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="./assets/sliderpics.js"></script>
+
+    <link rel="stylesheet" href="assets/css/flipcard.css" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet"> -->
+   
+    <link href="https://fonts.googleapis.com/css2?family=Eater&family=Nosifer&display=swap" rel="stylesheet">
+ 
+    <title>3d Flip Card and slides</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="assets/images/ggbanner.gif" width="800" height=" 260" alt="Banner">
+    </div>
+           
+                <nav class="navbar">
+                    <ul>
+                        <li><button onclick="location.href='index.html'">Home</button></li>
+                        <li><button onclick="location.href='owenFavorite.html'">Our Favorite Horror Movies</button></li>
+                     
+                        <!-- <li><button class="btn" onclick="location.href='index.html'"> &#128128 Home &#128128</button></li>
+                        <li><button class="btn" onclick="location.href='owenFavorite.html'"> &#128128 Our Favorite Horror Movies &#128128</button></li> -->
+                        <!-- <li><button onclick="location.href='owenFavorite.html'">Our Favorite Horror Movies</button></li> -->
+                    </ul>
+                </nav>
+        </ul>
+    </nav>
+    <div class="header">
+        <div class="container">
+            <div class="card">
+                <div class="card-inner">
+                    <div class="front-face">
+                        <h2>Villian of the month</h2>
+                        <p>Jason Voorhees</p>
+                    </div>
+                    <div class="back-face">
+                        <img src="./assets/images/jasonvoorhees.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <img class="slide" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnZqb25zajk1Ynp1Z2l6N3ZtNnk2dWhucm5nbXFiOGliYmNicjBrdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Hv2HZXLEQxYHf7Nw0O/giphy.gif" alt="walking">
+            <img class="slide" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDBpcGw3YTliMXkzM24wbWw2bWV1dzNieWt4eG9od3g3ZTdtOHpxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1zJUcoB5R7oA6llWYm/giphy.gif" alt="breaking">
+            <img class="slide" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzRyeGpnOXQ4MW9yN2lzamF1b2FrZ3JoNHRvMDFlaWRhMXYzODZxdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/F6YsrTFP5wRmE/giphy.gif" alt="tv">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+
+</body>
+
+</html>
