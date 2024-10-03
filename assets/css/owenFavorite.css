@@ -1,3 +1,7 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Nosifer&display=swap'); */
+
+
 header {
     height: 55vh;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -10,9 +14,10 @@ header {
     /* font-size: 40px; */
     /* box-shadow: 0px 0px 20px rgb(243, 242, 248); */
 }
-
+/* font for scary font */
 main {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: "Nosifer", sans-serif;
     color: whitesmoke;
     text-align: center;
     font-size: 200%;
@@ -55,7 +60,9 @@ main h2 {
     background-color: black;
 }
 
+/* button fonts */
 .btn {
+    font-family: "Eater", serif;
     color: crimson;
     background-color:white;
     padding: 15px;
@@ -137,4 +144,19 @@ form {
   div img{
     border-radius: 15px;
     box-shadow: 0px 0px 40px red;
+  }
+
+  /* media queries */
+  @media screen and (max-width: 992px){
+    body {
+        background-color:  orange;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    
+  }
+
+  @media screen and (max-width: 576px){
+    
   }
