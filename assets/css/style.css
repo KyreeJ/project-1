@@ -32,7 +32,9 @@ body {
   color: rgb(8, 8, 8);
 }
 
-
+.buttonWrapper {
+  margin: auto;
+}
 
 /* text-shadow: 1px 1px 2px rgb(255, 97, 40), 0 0 1em rgb(255, 97, 40), 0 0 0.2em rgb(255, 73, 7); */
 
@@ -90,7 +92,10 @@ nav {
     0 0 42px #0fa,
     0 0 82px #0fa,
     0 0 92px #0fa;
-    margin: 30px;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  position: relative;
 }
 
 #navBar {
@@ -102,7 +107,7 @@ nav {
 
 #navBar li {
   margin: 0px 25px;
-  font-family: "Nosifer", sans-serif;
+  font-family: "Eater", sans-serif;
   font-weight: 400;
   font-style: normal;
   
@@ -127,4 +132,19 @@ nav {
 
 #navBar li button {
   background-color: darkred;
+  color: white;
+  font-family: "Eater", serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Nosifer", sans-serif;
+  margin-top: 50px;
+}
+
+.jumpscare-container {
+  display: flex;
+  justify-content: center;
+  margin: 75px;
 }
