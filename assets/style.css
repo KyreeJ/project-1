@@ -19,6 +19,12 @@ body {
     0 0 92px #0fa,
     0 0 102px #0fa,
     0 0 151px #0fa;
+  /* height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: m green;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 
@@ -33,9 +39,10 @@ header {
   color: black;
 
   header h1 {
-  display: inline-block;
-  margin-top: auto;
-  position: relative;;
+    display: inline-block;
+    margin-top: auto;
+    position: relative;
+    ;
 
   }
 
@@ -63,51 +70,6 @@ nav {
 .oneclick {
   color: black;
 
-
-
-
-
-
-
-
 }
-.container {
-  width: 350px;
-  height: 500px;
-  perspective: 500px;
-}
-
-.card {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  transition: transform 1500ms;
-  transform-style: preserve-3d;
-}
-.container:hover   .card{
-  cursor: pointer;
-  /* transform: rotateY(90deg) */
-  transform: rotateY(180deg) rotateZ(180deg);
-}
-.front,
-.back {
-  height: 100%;
-  width: 100%;
-}
-.front {
-  background-image: img(images/jason_voorhees_by_plaiemobile_dgbab8v-fullview);
-  /* jason v*/
-}
-.back {
- background-color: #f3ae0d;
- transform: rotateX(180deg);
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: right;
- gap: 1rem;
-}
-
-
 
 

@@ -1,108 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-/* .header img {
+
+.header img {
+
   width: 100vw;
   height: 25vh;
-} */
-body {
-  /* height: 100vh;
-  overflow: hidden; */
-  background: linear-gradient(45deg, rgb(66, 57, 57), #064b2c);
-  font-family: Arial, Helvetica, sans-serif;
-  color:
-  rgb(9, 61, 27);
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+} 
 
-}
-.h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:rgba(0, 0, 0, 1)
 
-}
-.container {
-  width: 350px;
-  height: 500px;
-  perspective: 500px;
-}
-
-.card {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  transition: transform 1500ms;
-  transform-style: preserve-3d;
-}
-.container:hover   .card{
-  cursor: pointer;
-  /* transform: rotateY(90deg) */
-  transform: rotateY(180deg) rotateZ(180deg);
-}
-.front,
-.back {
-  height: 100%;
-  width: 100%;
-}
-.front {
-  background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExemQzNGs4MHdkNGhyYmtreGZia2RsaTU5eTJ4dWRwc25tYWN2bTRxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1zJUcoB5R7oA6llWYm/giphy.webp);
-  /* jason f13th gif */
-}
-.back {
- background-color: #f3ae0d;
- transform: rotateX(180deg);
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: right;
- gap: 1rem;
-}
-
-/* freddy */
-.h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color:rgba(0, 0, 0, 1)
-
-}
-.container {
-  width: 350px;
-  height: 500px;
-  perspective: 500px;
-}
-
-.card {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  transition: transform 1500ms;
-  transform-style: preserve-3d;
-}
-.container:hover   .card{
-  cursor: pointer;
-  /* transform: rotateY(90deg) */
-  transform: rotateY(180deg) rotateZ(180deg);
-}
-.front,
-.back {
-  height: 100%;
-  width: 100%;
-}
-.front {
-  background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWR3b2R0YjJhd2c0dDZsYW1tMnZyanZ2N2x1MmFmZWV4OW53Y2xmcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VXUpjaExrrsMU/giphy.gif);
-  /* freddy krueger */
-}
-.back {
- background-color: #f3ae0d;
- transform: rotateX(180deg);
- display: flex;
- flex-direction: row;
- justify-content: center;
- align-items: right;
- gap: 1rem;
-}
 
 
 *,
