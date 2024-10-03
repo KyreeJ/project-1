@@ -65,6 +65,7 @@ prev.addEventListener('click', function (event) {
 navigatepage(0)
 
       // Update the image's source to the string being stored in the data-animate attribute
+<<<<<<< HEAD
       element.setAttribute('src', element.dataset.animate);
       {
       // Change the attributes back to their non-animated values
@@ -73,6 +74,16 @@ navigatepage(0)
     }
   
 
+=======
+    //   element.setAttribute('src', element.dataset.animate);
+    // } else {
+      // Change the attributes back to their non-animated values
+//       element.dataset.state = 'still';
+//       element.setAttribute('src', element.dataset.still);
+//     }
+//   }
+// });
+>>>>>>> 567864dc333305585fbfca5040eb13040f8c11c5
 
 function saveMovie() {
   const movieInput = document.getElementById('movieInput').value;

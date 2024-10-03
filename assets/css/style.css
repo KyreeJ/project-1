@@ -1,0 +1,130 @@
+.header {
+  box-sizing: border-box;
+  padding: 0px;
+  padding-right: 0px;
+  margin: 0;
+}
+
+
+body {
+  font-size: large;
+  background-color: rgb(7, 6, 6);
+  color: rgb(8, 8, 8);
+  /* neontext color: #fff; */
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+body {
+  background-image: url("https://preview.redd.it/w76cdkjncoo91.jpg?auto=webp&s=f8e3e2d8131f06f84b11d27d617d55bc4eea49bb");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  color: rgb(8, 8, 8);
+}
+
+
+
+/* text-shadow: 1px 1px 2px rgb(255, 97, 40), 0 0 1em rgb(255, 97, 40), 0 0 0.2em rgb(255, 73, 7); */
+
+
+header {
+  padding: 50;
+  font-size: large;
+  background-color: lightblue;
+  color: black;
+
+  header h1 {
+  display: inline-block;
+  margin-top: auto;
+  position: relative;
+  }
+}
+
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  margin: 0;
+  padding: 50;
+  list-style-type: none;
+  box-shadow: 40 10 px;
+  background-color: rgb(170, 5, 5);
+  color: rgba(2, 10, 0, 0.833);
+}
+
+
+.oneclick {
+  color: black;
+}
+
+#randomButton {
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: darkred;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa;
+    margin: 30px;
+}
+
+#navBar {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#navBar li {
+  margin: 0px 25px;
+  font-family: "Nosifer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+  
+    box-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 10px #0fa,
+    0 0 15px #0fa,
+    0 0 20px #0fa;
+}
+
+#navBar li button {
+  background-color: darkred;
+}
