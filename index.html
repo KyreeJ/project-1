@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<!-- Website header -->
+    <!-- Website header -->
     <!-- <h1>Gruesome Goonz</h1> -->
     <div class="header">
-        <img src="./images/ggbanner.gif" width="640" height="260" alt="Banner">
-      </div>
+        <img src="./images/ggbanner.gif" width="640" height=" 360" alt="Banner">
+    </div>
 
-<!-- Nav bar between pages -->
+    <!-- Nav bar between pages -->
     <nav>
         <ul id="navBar">
             <li><button onclick="location.href='favorite.html'">Our Favorite Horror Movies</button></li>
@@ -26,12 +28,32 @@
         </ul>
     </nav>
 
-<!-- Main part of website -->
-    <h1><strong>A Home for Horror Fanatics and Thrill Seekers!</strong></h1>
-    
+    <!-- Main part of website -->
+    <div class="horror icons-container">
+        <p>A Home for Horror Fanatics and Thrill Seekers!</p>
 
-<!-- Jumpscare Ring girl -->
+        <img src="https://preview.redd.it/w76cdkjncoo91.jpg?auto=webp&s=f8e3e2d8131f06f84b11d27d617d55bc4eea49bb"
+            alt="Horror icons in theater" width="500">
+    </div>
+    <!-- Jumpscare Ring girl -->
     <div class="jumpscare-container">
+<<<<<<< HEAD
+        <img id="jumpscare-gif"
+            src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnRlcGF2aGdsbDg2dzQ5cm80bXJwbG00NTcwMHFndHhiZnQwYWp5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/s0TjvArH5xQiI/giphy.webp"
+            alt="Ring girl gif">
+        <img id="jumpscare-image"
+            src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/21/1413886741290/Ringu-Ring-sadako-eye-014.jpg?width=465&dpr=1&s=none"
+            alt="Ring girl eye" style="display: none;">
+        <!-- <audio id="jumpscare-sound" src="./assets/images/jumpscare-94984.mp3" preload="auto"></audio> -->
+    </div>
+
+    <!-- Movie recommendation button -->
+    <button id="randomButton">Recommend Me a Movie!</button>
+    <div id="result"></div>
+    <div id="popup">
+        <p id="popupMessage"></p>
+    </div>
+=======
         <img id="jumpscare-gif" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnRlcGF2aGdsbDg2dzQ5cm80bXJwbG00NTcwMHFndHhiZnQwYWp5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/s0TjvArH5xQiI/giphy.webp"
         alt="Ring girl gif">
         <img id="jumpscare-image" src="https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/21/1413886741290/Ringu-Ring-sadako-eye-014.jpg?width=465&dpr=1&s=none"
@@ -62,17 +84,18 @@
           </div>
         </div>
       </div>
+>>>>>>> 567864dc333305585fbfca5040eb13040f8c11c5
     <script>
         const options = ['Halloween', 'Friday the 13th', 'Texas Chainsaw Massacre', 'Scream', 'The Shining',
-        'Evil Dead', 'The Thing', 'A Nightmare on Elm Street', 'It Follows', 'Hereditary', 'Psycho'];
+            'Evil Dead', 'The Thing', 'A Nightmare on Elm Street', 'It Follows', 'Hereditary', 'Psycho'];
 
-        document.getElementById('randomButton').onclick = function() {
+        document.getElementById('randomButton').onclick = function () {
             const randomIndex = Math.floor(Math.random() * options.length);
             const randomOption = options[randomIndex];
 
-        document.getElementById('popupMessage').innerText = randomOption;
-        document.getElementById('popup').style.display = 'block';
-        document.getElementById('randomButton').style.display = 'block';
+            document.getElementById('popupMessage').innerText = randomOption;
+            document.getElementById('popup').style.display = 'block';
+            document.getElementById('randomButton').style.display = 'block';
         };
 
         document.getElementById('nextButton').onclick = function() {
@@ -84,7 +107,12 @@
         document.getElementById('nextButton').style.display = 'block';
         };
     </script>
+<<<<<<< HEAD
+
+=======
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+>>>>>>> 567864dc333305585fbfca5040eb13040f8c11c5
 </body>
+
 </html>
