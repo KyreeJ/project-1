@@ -3,17 +3,18 @@
 
 
 header {
-    height: 55vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* background-image: url(../images/gruesome.png); */
-    background-position:center;
+    height: 40vh;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* background-image: url(./assets/images/ggbanner.gif); */
+    /* background-position:center; */
     /* background-size:cover ; */
     /* padding: 30px; */
-    /* margin: 0px; */
+    /* margin-top: 30px; */
     /* color: grey; */
     /* font-size: 40px; */
     /* box-shadow: 0px 0px 20px rgb(243, 242, 248); */
 }
+
 /* font for scary font */
 main {
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
@@ -44,16 +45,17 @@ main h2 {
 
 .navbar ul {
     /* display: block; */
-    background-color:rgba(128, 128, 128, 0.404);
+    /* background-color:rgba(128, 128, 128, 0.404); */
     padding: 2px;
-    margin: 0px;
-    text-align: center;
-    box-shadow: 0px 0px 15px white;
-    overflow: hidden;
+    /* margin: 0px; */
+    /* text-align: center; */
+    /* box-shadow: 0px 0px 15px white; */
+    /* overflow: hidden; */
 }
 
 .navbar li{
     float:left;
+    justify-content: space-between;
 }
 
 .btn:hover{
@@ -62,15 +64,25 @@ main h2 {
 
 /* button fonts */
 .btn {
+    margin-right:10px;
     font-family: "Eater", serif;
-    color: crimson;
-    background-color:white;
-    padding: 15px;
-
+    color: white;
+    background-color: rgb(107, 4, 4);
+    padding: 10px;
     border-radius: 12px;
     text-align: center;
-    text-shadow: 0px 0px 20px rgb(122, 5, 113);
+    box-shadow:
+    /* 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff, */
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;  
+
 }
+
 
 body {
     margin: 0;
@@ -84,7 +96,6 @@ p {
 .container {
     margin-left: 50px;
     display: inline-flex;
-    /* justify-content: space-evenly; */
     flex-wrap: wrap;
     align-content: flex-end;
     column-gap: 2em;
@@ -96,10 +107,11 @@ button {
 }
 
 form {
-    margin-top: 200px;
+    margin-top: 2px;
     min-height: 50vh;
 }
 
+/* movie  */
 .neontext {
     color: #fff;
     text-shadow:
@@ -113,27 +125,16 @@ form {
         0 0 151px #0fa;
 }
 
-/* 0 0 42px orange,
-      0 0 82px orange,
-      0 0 92px orange,
-      0 0 102px orange,
-      0 0 151px orange; */
-
 .localStorageMovies{
     padding: 250px;
 }
 
-/* .header img {
-    width: 100vw;
-    height: 25vh;
-  } */
-
  .header img {
     display: block;
-    float: left;
-    width: 48%;
-    height: 270px;
-    margin: 1%;
+    /* float: left; */
+    width: 100%;
+    height: 300px;
+    margin: 0%;
     cursor: pointer;
     object-fit: cover;
     border-radius: 8px;
@@ -141,16 +142,15 @@ form {
     transition: 0.3s;
   }
 
+  /* move categories */
   div img{
     border-radius: 15px;
     box-shadow: 0px 0px 40px red;
   }
 
   /* media queries */
-  @media screen and (max-width: 992px){
-    body {
-        background-color:  orange;
-    }
+  /* @media screen and (max-width: 992px){
+ 
   }
 
   @media screen and (max-width: 768px){
@@ -159,4 +159,10 @@ form {
 
   @media screen and (max-width: 576px){
     
+  } */
+
+  @media (min-width: 768px) and (max-width: 991.98px) { 
+   .header img {
+    width:100%;
+   }
   }
