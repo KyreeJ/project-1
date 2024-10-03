@@ -10,7 +10,7 @@ window.onload = function() {
             setTimeout(() => {
                 gif.style.display = 'none';
                 staticImage.style.display = 'block';
-                // sound.play();
+                sound.play();
             }, 6000);
     }, 9000);
 };
