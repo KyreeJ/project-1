@@ -112,7 +112,7 @@
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  .slider button{
+  /* .slider button{
     position: absolute;
     top: 50%;
     transform: translateY(50%);
@@ -129,7 +129,7 @@
   }
   .next{
     right: 0;
-  }
+  } */
   @keyframes fade{
     from{opacity: .5}
     to {opacity: 1}
