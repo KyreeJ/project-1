@@ -9,15 +9,29 @@
 
 ## Installation
 
-    This is a Static website instaliation it is not required to beyond cloning the repository.
+  -  This is a Static website instaliation it is not required to beyond cloning the repository.
 
 ## Usage
 
-simple process to go through our webpage is to click on the main landing page that uses a nagation to chose villain of the month , random movies selctor and category section that takes you through different movies.
+simple process to go through our webpage is to click on the main landing page that uses a navgation to chose villain of the month , random movies selctor and category section that takes you through different movies.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+- Screenshots and visualation
 
-![favorite page has ](./assets:images/favorites%20page.png)
+![landing page that shows descriptions of the navigation and content](./assets:images/landing%20page.png)
+
+
+![favorite page has a font style easy to read ](./assets:images/favorites%20page.png)
+
+
+![second favorite page link shows recomendations for movies easy to read ](./assets:images/movie%20category.png)
+
+
+![villain of the month page gives interactions to the site its self showing gifs ,style and amination of a flip card](./assets:images/villian%20flip%20card.png)
+
+
+![villain of the month page shows the choice of viewing the site its self ](./assets:images/villain%20of%20the%20month.png)
+
+
 
 
 
@@ -26,14 +40,40 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 collabarators - Brandon lanes , Marie Chantiel Foster , Owen Gayle , Asuanti Jones
 git hub - BrandonLanes , MCFoster007 , owengx , Kyreej
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+thrid party asssets that we used was giphy for animations and google images for the landing page , favorites page and villain of the month
+  
+  Brandon lanes - ![landing page](./assets:images/landing%20page.png)
+  landing page that gives style a jump scare with sound for effect of the page its self  
+  
+  Owen Gayle -
+ 
+  ![favorite page ](./assets:images/favorites%20page.png)![second favfavoriteorite page](./assets:images/movie%20category.png)
+  
+  favorite page and categories  1 & 2 that shows styling and selctors written java script to create effects with font style glow
 
-If you followed tutorials, include links to those here as well.git
+  
+  Marie Chantiel Foster - ![](./assets:images/villian%20flip%20card.png)
+   
+   villian of the month amination of a flip card and styling and banner as well with java script 
+  
+  Asuanti Jones - ![styling of the page and images , font style glow](./assets:images/villian%20flip%20card.png)
+  
+  villain of the month styling of the page and images , font style glow
+
+
+  All in a group effort !
+
+
+
+
+
+- credits to YouTube sites for Bro Code, Coding with Russ, and GreatStack, Giphy, Web API section, and our team
+edits to bootcamp xpert learning assistant for local storage component, bootcamp tutor for help with jumpscare loop, bootstrap for modal, google fonts, giphy, the guardian for spooky image, pixabay for mp3 xpert. learning assistant, the TA's and Dan
 
 ## License
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) [2024] [GG]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,7 +97,7 @@ SOFTWARE.
 
 ## Features
 
-The GREUSOME GOONZ project has an assortment of features that include CSS , Java script, flip card feature , gifs and a jump scare with sound. the ability to interact with the page its self by selecting ramdom choices of different horror movies or the charcters that are in the movies as well. 
+The GREUSOME GOONZ project has an assortment of features that include CSS , Java script, flip card feature , media quierys , gifs and a jump scare with sound. the ability to interact with the page its self by selecting ramdom choices of different horror movies or the charcters that are in the movies as well.
 
 ## How to Contribute
 
